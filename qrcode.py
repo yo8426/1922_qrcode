@@ -21,6 +21,9 @@ plt.imshow(img_bgr)
 decode_data = decode(img_bgr)
 print(decode_data)
 print(type(decode_data))
+#get_UTF-8
+#UTF-82chinese
+#SMSTO:1922:場所代碼：OOOO OOOO OOOO OOO \n本簡訊是簡訊實聯制發送，限防疫目的使用。
 ##################################################
 #cread_new_qrcode
 qr = qrcode.QRCode(
